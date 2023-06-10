@@ -1,40 +1,101 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-		<title>reveal.js</title>
+    <title>reveal.js</title>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" />
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>
-					<h1>Slide 1</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-				</section>
-				<section>
-					<h1>Slide 2</h1>
-					<p>Nulla facilisi. Donec feugiat mi sed nisl ultrices, sed facilisis erat interdum.</p>
-				</section>
-				<section>
-					<h1>Slide 3</h1>
-					<p>Curabitur dapibus tincidunt ultricies. Fusce mattis sem ac eleifend consectetur.</p>
-				</section>
-			</div>
-		</div>
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h1>Slide 1</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </section>
+
+        <section>
+          <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2">
+              <div class="flex items-center justify-center">
+                <img
+                  width="200"
+                  src="https://www.merito.pl/sites/wsb/files/MERITO%20UCZELNIE%20LOGO.png"
+                  alt="Logo WSB"
+                />
+              </div>
+              <div class="flex items-center justify-center">
+                <p>Text</p>
+              </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2">
+              <div class="flex items-center justify-center">
+                <p>Text</p>
+              </div>
+              <div class="flex items-center justify-center">
+                <img
+                  width="200"
+                  src="https://www.merito.pl/sites/wsb/files/MERITO%20UCZELNIE%20LOGO.png"
+                  alt="Logo WSB"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="container mx-auto">
+            <div class="grid grid-cols-1">
+              <div class="flex items-center justify-center">
+                <p>Text</p>
+              </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2">
+              <div class="flex items-center justify-center">
+                <img
+                  width="200"
+                  src="https://www.merito.pl/sites/wsb/files/MERITO%20UCZELNIE%20LOGO.png"
+                  alt="Logo WSB"
+                />
+              </div>
+              <div class="flex items-center justify-center">
+                <img
+                  width="200"
+                  src="https://www.merito.pl/sites/wsb/files/MERITO%20UCZELNIE%20LOGO.png"
+                  alt="Logo WSB"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
 
 		<script src="dist/reveal.js"></script>
 		<script src="plugin/notes/notes.js"></script>
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 		<script>
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
